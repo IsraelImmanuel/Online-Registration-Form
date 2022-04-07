@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Registration Form</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+      <header>
+      <h1>The Code Review</h1>
+      </header>
+      <div class="wrapper">
+      <h2>Sign up for our newsletter</h2>
+      <p>Get the latest news on how your code is doing right in your inbox</p>
+      </div>
+      <form action="/my-handling-form-page" method="post">
+         <fieldset>
+           <legend>Contact Information</legend>
+         <ul>
+          <li>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="user_name">
+          </li>
+          <li>
+            <label for="mail">Email Address</label>
+            <input type="email" id="mail" name="user_email">
+          </li>
+          <li>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="user_phone">
+          </li>
+          <li>
+            <label for="street">Street Address</label>
+            <input type="address" id="street" name="user_address">
+          </li>
+          <li>
+            <label for="city">City</label>
+            <input type="city" id="city" name="user_city">
+          </li>
+          <li>
+            <label for="state">State</label>
+            <select id="state" name="user_state">
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+              <option value="Arizona">Arizone</option>
+              <option value="Arkansas">Arkansas</option>
+              <option value="California">California</option>
+            </select>
+          </li>
+          <li>
+            <label for="zip">Zip Code</label>
+            <input type="zip" id="zip" name="user_zip">
+          </li>
+         </ul>
+         </fieldset>
+
+      <div class="container">
+     <fieldset>
+       <legend>Newsletter</legend>
+       <p>Select the newsletters you would like to receive</p>
+    <input type="checkbox" id="html-news" value="html-news" name="user_newsletter"><label class="light" for="html-news">HTML News</label><br>
+    <input type="checkbox" id="css-news" value="css-news" name="user_newsletter"><label class="light" for="css-news">CSS News</label><br>
+    <input type="checkbox" id="Javascript-news" value="javascript-news" name="user_newsletter"><label class="light" for="javascript-news">Javascript News</label><br>
+     <p>Newsletter Format</p>
+    <input type="radio" id="html" value="html" name="user_text"><label class="light" for="html">HTML</label><br>
+    <input type="radio" id="plain-text" value="plain-text" name="user_text"><label class="light" for="plain-text">Plain Text</label><br>
+  <p>Other topics you would like to hear about</p>
+  <li>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+  <li class="button">
+  <button type="submit">Sign Up</button>
+</li>
+     </fieldset>
+     </div>
+
+
+       
+    </form>
+  </body>
+</html>
