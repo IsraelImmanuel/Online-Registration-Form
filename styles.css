@@ -172,7 +172,7 @@ label.light {
 }
 
 .container {
-  max-width: 100;
+  max-width: 100%;
 }
 
 p {
@@ -183,7 +183,7 @@ p {
 
 .wrapper {
   text-align: center;
-  
+
 }
 
 h2 {
@@ -234,7 +234,7 @@ hr {
     display: inline-block;
 
 }
-
+}
 @media (min-width: 1024px) {
 
 .form-box {
@@ -264,6 +264,5 @@ h1 {
 }
  h2 {
    font-size: 25px;
-
  }
 }
