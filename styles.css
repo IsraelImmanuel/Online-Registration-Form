@@ -245,8 +245,15 @@ input[id="zip"] {
 label {
   margin-right: 10px;
     white-space: nowrap;
+    flex-basis: calc(25% - 20px);
 }
 
+input {
+  flex-basis: calc(75% - 20px);
+}
+legend {
+  margin-bottom: 50px;
+}
 }
 @media (min-width: 1024px) {
 
@@ -286,7 +293,13 @@ h1 {
 label {
   margin-right: 10px;
     white-space: nowrap;
+    flex-basis: calc(25% - 20px);
+}
+input {
+  flex-basis: calc(75% - 20px);
 }
 
-
+legend {
+  margin-bottom: 50px;
+}
 }
