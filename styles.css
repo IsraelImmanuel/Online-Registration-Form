@@ -100,7 +100,7 @@ h1 {
 }
 input[type="text"],
 input[type="email"],
-input[type="number"],
+input[type="tel"],
 input[type="zip"],
 input[type="text"],
 input[type="number"],
@@ -223,6 +223,9 @@ hr {
   height: 1px;
 }
 
+input[id="zip"] {
+  width: 50%;
+}
 
 @media (min-width: 768px) {
 
@@ -234,6 +237,16 @@ hr {
     display: inline-block;
 
 }
+
+input[id="zip"] {
+  width: 25%;
+}
+
+label {
+  margin-right: 10px;
+    white-space: nowrap;
+}
+
 }
 @media (min-width: 1024px) {
 
@@ -265,4 +278,15 @@ h1 {
  h2 {
    font-size: 25px;
  }
+
+ input[id="zip"] {
+   width: 25%;
+
+ }
+label {
+  margin-right: 10px;
+    white-space: nowrap;
+}
+
+
 }
