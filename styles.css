@@ -126,11 +126,7 @@ input[type="checkbox"] {
 
 }
 
-select {
-  padding: 6px;
-  height: 32px;
-  border-radius: 2px;
-}
+
 
 button {
   padding: 19px 18px 18px 39px;
@@ -244,7 +240,7 @@ label {
     flex-basis: calc(25% - 20px);
 }
 
-input {
+input, select {
   flex-basis: calc(75% - 20px);
 }
 legend {
@@ -252,7 +248,7 @@ legend {
 }
 
 input[id="zip"] {
-  width: 50%;
+  max-width: 25%;
 }
 
 }
@@ -293,7 +289,7 @@ label {
     white-space: nowrap;
     flex-basis: calc(25% - 20px);
 }
-input {
+input, select {
   flex-basis: calc(75% - 20px);
 }
 
@@ -302,7 +298,7 @@ legend {
 }
 
 input[id="zip"] {
-  width: 50%;
+  max-width: 25%;
 }
 
 }
