@@ -238,10 +238,6 @@ input[id="zip"] {
 
 }
 
-input[id="zip"] {
-  width: 25%;
-}
-
 label {
   margin-right: 10px;
     white-space: nowrap;
@@ -254,6 +250,11 @@ input {
 legend {
   margin-bottom: 50px;
 }
+
+input[id="zip"] {
+  width: 50%;
+}
+
 }
 @media (min-width: 1024px) {
 
@@ -286,10 +287,7 @@ h1 {
    font-size: 25px;
  }
 
- input[id="zip"] {
-   width: 25%;
 
- }
 label {
   margin-right: 10px;
     white-space: nowrap;
@@ -300,6 +298,11 @@ input {
 }
 
 legend {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
+
+input[id="zip"] {
+  width: 50%;
+}
+
 }
